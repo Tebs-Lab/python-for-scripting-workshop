@@ -49,6 +49,11 @@ If you will not have access to the internet but want to complete this exercise, 
 The following code snippet fetches the relevant data from Reddit or the provided file, whichever you specify:
 
 ```python
+import json
+import pathlib
+import ssl
+from urllib.request import Request, urlopen
+
 # Change this to False to use the file data.
 use_live_data = True
 
