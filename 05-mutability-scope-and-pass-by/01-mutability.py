@@ -32,6 +32,7 @@ l[0] = 10 # which means we can do this.
 
 # Note that, variables that point to immutable objects can be reassigned, though:
 booleans = [True, False]
+booleans = 'Something else entirely'
 
 # Another important aspect of mutability is the concept of a reference.
 # Consider the following and try to predict what the print statement will print:
