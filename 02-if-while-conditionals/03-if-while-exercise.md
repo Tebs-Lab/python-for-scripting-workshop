@@ -27,7 +27,7 @@ We haven't covered random number generation in Python, but our task can be achie
 import random
 
 # The variable secret_number will be an integer between 1 and 100.
-secret_number = random.rantint(1, 100)
+secret_number = random.randint(1, 100)
 ```
 
 See the Python documentation of the [random package](https://docs.python.org/3/library/random.html) for more information about the random package, which includes numerous functions for generating random data in a variety of ways.
