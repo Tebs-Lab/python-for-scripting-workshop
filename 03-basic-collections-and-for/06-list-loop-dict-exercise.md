@@ -71,7 +71,7 @@ words = [
     'buffalo',
     'tepid',
     'enemy',
-    'salvo
+    'salvo'
 ]
 ```
 
