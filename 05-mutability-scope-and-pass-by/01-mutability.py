@@ -32,7 +32,8 @@ l[0] = 10 # which means we can do this.
 
 # Note that, variables that point to immutable objects can be reassigned, though:
 booleans = [True, False]
-booleans = 'Something else entirely'
+booleans[0] = 10
+tuples = 10
 
 # Another important aspect of mutability is the concept of a reference.
 # Consider the following and try to predict what the print statement will print:
@@ -79,8 +80,8 @@ print (f is d)
 h = [a, b, c]
 i = [a, b, c]
 j = h
-print(h == i)
 print(h is i)
+print(h == i)
 
 print(i is j)
 print(i == j)

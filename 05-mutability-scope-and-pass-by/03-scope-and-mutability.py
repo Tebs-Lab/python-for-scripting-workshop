@@ -24,15 +24,3 @@ print(l) # Stop: What will this print?
 # While the object in memory (the list) was mutated, the variables a and b
 # remain inaccessible in this scope:
 # print(a, b) # this line errors.
-
-# Variable shadowing occurs when there are variables in different
-# scopes with the same name. Python will use the local version of
-# the variable in such cases.
-x = 'I am a global variable'
-def fun3():
-    x = 'I am a local variable'
-    print(x) # If no keyword is used, python uses the most local variable
-
-# Note that x has not changed after calling the function
-fun3()
-print(x)
