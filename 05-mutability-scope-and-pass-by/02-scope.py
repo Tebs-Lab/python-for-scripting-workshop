@@ -16,7 +16,7 @@ def function_one(y):
     # Global variables are accessible in every other scope.
     z += x
 
-    print(f'z: {z}, x: {x}')
+    print(f'z: {z}, y: {y}, x: {x}')
 
 function_one(20)
 
