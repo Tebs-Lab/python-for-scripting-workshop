@@ -1,6 +1,6 @@
-# Installing and Manging Python Libraries
+# Installing and Managing Python Libraries
 
-Python has several 3rd party libraries which expand Python's functoinality, but are not built into the language itself. We need several such libraries for the remainder of this workshop. Specifically we'll be installing:
+Python has several 3rd party libraries which expand Python's functionality, but are not built into the language itself. We need several such libraries for the remainder of this workshop. Specifically we'll be installing:
 
 * `pandas` a library for working with tabular data, it has several features that are similar to SQL, some unique features (such as charting), and some features which SQL can provide but that are much easier in pandas (such as computing descriptive statistics) 
 * `sqlalchemy` a library that allows us to connect Python code to a SQL database.
