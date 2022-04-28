@@ -56,4 +56,14 @@ If you don't want to install Firefox or this Chrome extension, this online tool 
 
 Reddit does rate limit bot requests. Make sure you specify a User-Agent header because Reddit will significantly increase the amount of requests you can make in a given unit time if you include a User-Agent.
 
-Additionally, you may want to start by only processing the comments of the top 1 posts. Once that code works, expand to more posts. This way you'll reduce your chance of getting rate limited while your code still has significant errors.
+Additionally, you may want to start by only processing the comments of the top 1 posts. Once that code works, expand to more posts. This way you'll reduce your chance of getting rate limited while your code still has significant errors. Here is a sample of code that makes a request and sets the User-Agent header:
+
+```python
+    # Fetching the live data from reddit.
+all_listings_response = requests.get(
+    'https://www.reddit.com/r/AmItheAsshole/top/.json?t=day',
+    headers={
+        'User-Agent': 'top-daily-ahole-calculator-bot'
+    }
+)
+```
