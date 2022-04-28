@@ -19,7 +19,7 @@ print(even_and_div_3)
 currency = [f'${num}.00' for num in evens]
 print(currency)
 
-# Dictionary comprehensions use a similar pattern, but they key and value must be specified.
+# Dictionary comprehensions use a similar pattern, but the key and value must be specified.
 # This one creates a dictionary with keys for the first 10 integers with their square as the value
 int_to_square = {i: i*i for i in range(1,11)}
 print(int_to_square)
