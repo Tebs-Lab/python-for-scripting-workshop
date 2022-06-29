@@ -11,13 +11,13 @@ while True:
 
     # Check if the value can be coerced to an integer.
     if not current_guess.isnumeric():
-        print(f'You guessed {current_guess}, which is not a positive integer. Try again.')
+        print(f'You guessed {current_guess}, which is not an integer. Try again.')
         continue
 
     # Coerce the guess to an integer.
     current_guess = int(current_guess)
 
-    if 1 <= current_guess <= 100:
+    if current_guess > 100 or current_guess < 1:
         print("That number is out of the legal range, please guess between 1 and 100")
         continue
 
