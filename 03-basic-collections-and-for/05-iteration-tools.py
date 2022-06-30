@@ -13,7 +13,7 @@ print('\n', l1)
 
 # The split function creates a list from a string given a 'separator' character.
 l3 = 'a b c d e'.split(' ')
-print('\n', type(l2), l2)
+print('\n', type(l3), l3)
 
 # The join method of strings creates a string from a list, using the 
 # string as a join character
