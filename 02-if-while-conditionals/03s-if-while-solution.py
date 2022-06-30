@@ -17,7 +17,8 @@ while True:
     # Coerce the guess to an integer.
     current_guess = int(current_guess)
 
-    if current_guess > 100 or current_guess < 1:
+    # This cute python "between" syntax asks if the guess is not between 1 and 100
+    if not (1 <= current_guess <= 100):
         print("That number is out of the legal range, please guess between 1 and 100")
         continue
 
