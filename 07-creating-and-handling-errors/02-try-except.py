@@ -42,7 +42,7 @@ while True:
     except ValueError:
         print("Sorry, that was not a number. Try again.")
     except ZeroDivisionError:
-        print("Sorry, zero is not a vaild choice. Try again")
+        print("Sorry, zero is not a valid choice. Try again")
     else:
         print("well done!")
         break
@@ -60,7 +60,7 @@ while True:
     except ValueError:
         print("Sorry, that was not a number. Try again.")
     except ZeroDivisionError:
-        print("Sorry, zero is not a vaild choice. Try again")
+        print("Sorry, zero is not a valid choice. Try again")
     else:
         print("well done!")
         break
