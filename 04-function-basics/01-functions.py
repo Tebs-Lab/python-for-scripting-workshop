@@ -1,6 +1,3 @@
-from example import prints_pi
-prints_pi()
-
 # Functions are blocks of code that we can reuse.
 # We define them using the keyword "def".
 # All functions need a name, and optionally may accept parameters.
@@ -10,21 +7,13 @@ def compute_two():
     return 1 + 1
 
 # This function has parameters.
-def add(parameter_one, parameter_two):
-    return parameter_one + parameter_two
+def add(a, b):
+    return a + b
 
 # All functions return a value, and if a value is not explicitly
 # returned using the return keyword, then None is returned. 
-
 def returns_none_and_does_nothing():
     pass
-
-def mulit_return():
-    return (1, 2, 3)
-
-x = mulit_return()
-x, y, z = mulit_return()
-
 
 
 # We call, or invoke, functions with a similar syntax:
@@ -42,12 +31,12 @@ print(q)
 # have a name and a default value. All positional arguments 
 # must be specified before any keyword arguments. Here, c is a 
 # keyword argument.
-def uses_keywords(a, b, c = 10):
+def uses_keywords(a, b, c = 10, d=6):
     return a + b + c
 
 print(uses_keywords(1, 2))      # If unspecified, c uses the default value of 10
 print(uses_keywords(1, 2, 3))   # keyword args can be specified positionally, but this is not preferred. 
-print(uses_keywords(1, 2, c=3)) # This is the preferred syntax for calling a function with keyword arguments.
+print(uses_keywords(1, 2, d=70, c=3)) # This is the preferred syntax for calling a function with keyword arguments.
 
 
 # Micro-Exercise: create a function called fancy_math that
